@@ -1,9 +1,167 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="nl">
 <head>
-    <title>Meridian RP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meridian RP — Nederlandse FiveM roleplay. Jouw wereld, jouw verhaal.">
+  <meta name="theme-color" content="#080c17">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Meridian RP">
+  <meta property="og:title" content="Meridian RP | Nederlandse FiveM Roleplay">
+  <meta property="og:description" content="Jouw wereld. Jouw verhaal. Jouw Meridian. Ontdek een serieuze roleplaywereld met een levende economie en eindeloze verhalen.">
+  <meta property="og:url" content="https://meridianrp.nl/">
+  <meta property="og:image" content="https://meridianrp.nl/assets/meridian-share.png">
+  <meta property="og:image:secure_url" content="https://meridianrp.nl/assets/meridian-share.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Meridian RP — Nederlandse FiveM Roleplay">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Meridian RP | Nederlandse FiveM Roleplay">
+  <meta name="twitter:description" content="Jouw wereld. Jouw verhaal. Jouw Meridian.">
+  <meta name="twitter:image" content="https://meridianrp.nl/assets/meridian-share.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title>Meridian RP | Nederlandse FiveM Roleplay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welkom bij Meridian RP</h1>
+  <header class="hero" id="home">
+    <div class="hero__image" aria-hidden="true"></div>
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__shade" aria-hidden="true"></div>
+    <div class="corner corner--tl" aria-hidden="true"></div>
+    <div class="corner corner--tr" aria-hidden="true"></div>
+    <div class="corner corner--bl" aria-hidden="true"></div>
+    <div class="corner corner--br" aria-hidden="true"></div>
+
+    <nav class="nav container" aria-label="Hoofdnavigatie">
+      <a class="brand" href="#home" aria-label="Meridian home">
+        <span class="compass compass--small" aria-hidden="true"></span>
+        <span>MERIDIAN</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links" id="nav-links">
+        <a href="#features">Features</a>
+        <a href="#community">Community</a>
+        <a href="#filosofie">Onze filosofie</a>
+        <a href="regels.html">Regels</a>
+        <a class="button button--nav discord-link" href="https://discord.gg/hyqU2SUsCS" target="_blank" rel="noreferrer">Join Discord</a>
+      </div>
+    </nav>
+
+    <div class="hero__content container reveal is-visible">
+      <span class="compass compass--hero" aria-hidden="true"></span>
+      <p class="eyebrow">Nederlandse FiveM Roleplay</p>
+      <h1>MERIDIAN</h1>
+      <div class="tagline"><i></i><span>Jouw wereld. Jouw verhaal. Jouw Meridian.</span><i></i></div>
+      <div class="actions">
+        <button class="button button--gold connect-button" type="button"><span>▸</span> Verbind nu</button>
+        <a class="button button--ghost discord-link" href="https://discord.gg/hyqU2SUsCS" target="_blank" rel="noreferrer">Join de Discord</a>
+      </div>
+      <div class="server-status">
+        <span class="status-dot"></span>
+        <strong><span data-players>64</span><small>/<span data-max-players>128</span> spelers online</small></strong>
+        <i></i>
+        <span data-address>play.meridianrp.nl</span>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#features"><span>Ontdek meer</span><b>⌄</b></a>
+  </header>
+
+  <main>
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Waarom Meridian</p>
+          <h2>Gebouwd voor jouw verhaal</h2>
+          <p>Een doordachte wereld waar elke keuze telt. Dit is wat Meridian anders maakt.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><span class="feature-icon">⚖</span><h3>Serieuze roleplay</h3><p>In-character first. Consequenties zijn echt, je personage groeit, en powergaming hoort hier niet thuis.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">⚙</span><h3>QBOX framework</h3><p>Modern, snel en stabiel. Custom scripts, strakke UI en doorlopend onderhoud voor een soepele ervaring.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">▦</span><h3>Levende economie</h3><p>Legale jobs, eigen bedrijven en een onderwereld die ademt. Bouw kapitaal op of begin onderaan.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">◆</span><h3>Actieve staff</h3><p>Een betrokken team dat snel reageert, eerlijk modereert en de community vooropstelt — dag en nacht.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">◈</span><h3>Custom content</h3><p>Unieke MLO's, voertuigen en kleding die je nergens anders vindt — de wereld voelt als van jou.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">◇</span><h3>Hybride toegang</h3><p>Snel beginnen of solliciteren voor verdiepende rollen — je kiest zelf hoe diep je in Meridian duikt.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="community section" id="community">
+      <div class="community__glow" aria-hidden="true"></div>
+      <div class="container community__grid">
+        <div class="community__copy reveal">
+          <span class="discord-pill">Discord community</span>
+          <h2>Je verhaal begint in onze Discord</h2>
+          <p>Hier vind je het laatste nieuws, solliciteer je voor whitelist-rollen, en ontmoet je de community vóór je in de stad stapt. Vragen? Het team staat klaar.</p>
+          <div class="actions actions--left">
+            <a class="button button--discord discord-link" href="https://discord.gg/hyqU2SUsCS" target="_blank" rel="noreferrer">Word lid van de Discord</a>
+            <button class="button button--outline connect-button" type="button">Verbind nu</button>
+          </div>
+        </div>
+        <div class="stat-list reveal">
+          <div class="stat"><strong class="gold"><span data-players>64</span>/<span data-max-players>128</span></strong><span>spelers nu<br>actief in de stad</span></div>
+          <div class="stat"><strong class="purple">2.500+</strong><span>leden in onze<br>Discord community</span></div>
+          <div class="stat"><strong class="green">24/7</strong><span>support &amp; actieve<br>moderatie</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section philosophy" id="filosofie">
+      <div class="container container--narrow">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Onze filosofie</p>
+          <h2>Roleplay die voor iedereen werkt</h2>
+          <p>Meridian draait niet om ieder scenario winnen, maar om samen verhalen maken waar alle betrokken spelers met plezier op kunnen voortbouwen.</p>
+        </div>
+        <div class="philosophy-grid">
+          <article class="philosophy-card reveal">
+            <span>01</span>
+            <h3>Plezier boven winnen</h3>
+            <p>Een verloren achtervolging, arrestatie of confrontatie is geen mislukking. Het is een kans om een nieuw hoofdstuk aan je verhaal toe te voegen.</p>
+          </article>
+          <article class="philosophy-card reveal">
+            <span>02</span>
+            <h3>Speel het verhaal uit</h3>
+            <p>Blijf in character en geef een scenario de ruimte om zich te ontwikkelen. Mogelijke problemen bespreek of meld je nadat de scène is afgerond.</p>
+          </article>
+          <article class="philosophy-card reveal">
+            <span>03</span>
+            <h3>Geef elkaar tegenspel</h3>
+            <p>Goede roleplay ontstaat wanneer iedereen kan reageren, keuzes kan maken en gevolgen kan ervaren. Bouw samen, ook wanneer personages tegenover elkaar staan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__glow" aria-hidden="true"></div>
+    <div class="footer__cta container reveal">
+      <span class="compass compass--footer" aria-hidden="true"></span>
+      <h2>Klaar om in te stappen?</h2>
+      <p>Verbind met Meridian en schrijf je eigen verhaal. We zien je in de stad.</p>
+      <div class="actions">
+        <button class="button button--gold connect-button" type="button"><span>▸</span> Verbind nu</button>
+        <a class="button button--ghost discord-link" href="https://discord.gg/hyqU2SUsCS" target="_blank" rel="noreferrer">Join Discord</a>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <a class="brand brand--footer" href="#home"><span class="compass compass--tiny"></span><span>MERIDIAN</span><small>Jouw wereld. Jouw verhaal.</small></a>
+      <p>© <span id="year"></span> Meridian RP · Nederlandse FiveM Roleplay</p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"><span>✓</span><p>Verbind-adres gekopieerd: <strong data-address>play.meridianrp.nl</strong></p></div>
+  <script src="script.js"></script>
 </body>
 </html>
